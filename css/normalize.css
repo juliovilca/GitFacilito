@@ -10,10 +10,6 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-.btn{
-  padding: 10px 20px;
-  border-radius: 5px;
-}
 
 /**
  * Remove the margin in all browsers (opinionated).
