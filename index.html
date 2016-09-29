@@ -3,64 +3,67 @@
   <head>
     <meta charset="utf-8">
     <title>Julio Vilca | Web Developer</title>
+    <!-- se coloca para no tener que pelearnos con las diferencias entre los navegadores.
+    normalize siempre debe ir al principio, porque los archivos se cargan en
+    el orden en que se colocan-->
     <link rel="stylesheet" href="css/normalize.css" >
+    <!-- colocarla aquí, luego de normalize -->
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" >
   </head>
   <body>
       <header>
           <!--colocar aquí lo que siempre va arriba -->
-          <a href="index.html">
+          <a href="index.html" id="logo">
             <h1>Julio Vilca</h1>
             <h2>Web Developer</h2>
           </a>
           <nav>
             <ul>
-              <li><a href="index.html">Portafolio</a></li>
+              <li><a href="index.html" class="selected">Portafolio</a></li>
               <li><a href="acerca.html">Acerca de</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </nav>
       </header>
-      <section>
-         <!-- sección principal de la página-->
-         <ul>
-             <li>
-                <a href="img/coding-01.jpg">
-                  <img src="img/coding-01.jpg" alt="Proyectos con Javascript" />
-                  <p>Proyectos con Javascript</p>
-                </a>
-             </li>
-             <li>
-                <a href="img/coding-02.jpg">
-                  <img src="img/coding-02.jpg" alt="Proyectos con Html" />
-                  <p>Proyectos con Html</p>
-                </a>
-             </li>
-             <li>
-                <a href="img/coding-06.jpg">
-                  <img src="img/coding-06.jpg" alt="Plantillas Web" />
-                  <p>Plantillas Web</p>
-                </a>
-             </li>
-             <li>
-                <a href="img/coding-09.jpg">
-                  <img src="img/coding-09.jpg" alt="Flujo de Trabajo" />
-                  <p>Flujo de Trabajo</p>
-                </a>
-             </li>
-             <li>
-                <a href="img/coding-12.jpg">
-                  <img src="img/coding-12.jpg" alt="Diseño" />
-                  <p>Diseño</p>
-                </a>
-             </li>
-              <li>
-                <a href="img/coding-12.jpg">
-                  <img src="img/coding-12.jpg" alt="Diseño 2" />
-                  <p>Diseño 2</p>
-                </a>
-             </li>
-         </ul>
-      </section>
+      <div id="wrapper">
+        <section>
+           <!-- sección principal de la página-->
+           <ul id ="gallery">
+               <li>
+                  <a href="img/coding-01.jpg">
+                    <img src="img/coding-01.jpg" alt="Proyectos con Javascript" />
+                    <p>Proyectos con Javascript</p>
+                  </a>
+               </li>
+               <li>
+                  <a href="img/coding-02.jpg">
+                    <img src="img/coding-02.jpg" alt="Proyectos con Html" />
+                    <p>Proyectos con Html</p>
+                  </a>
+               </li>
+               <li>
+                  <a href="img/coding-06.jpg">
+                    <img src="img/coding-06.jpg" alt="Plantillas Web" />
+                    <p>Plantillas Web</p>
+                  </a>
+               </li>
+               <li>
+                  <a href="img/coding-09.jpg">
+                    <img src="img/coding-09.jpg" alt="Flujo de Trabajo" />
+                    <p>Flujo de Trabajo</p>
+                  </a>
+               </li>
+               <li>
+                  <a href="img/coding-12.jpg">
+                    <img src="img/coding-12.jpg" alt="Diseño" />
+                    <p>Diseño</p>
+                  </a>
+               </li>
+           </ul>
+        </section>
+      </div>
+
       <footer>
           <!-- contiene links relevantes-->
           <a href="https://twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" /></a>

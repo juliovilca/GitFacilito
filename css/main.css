@@ -1,0 +1,136 @@
+/*****************************
+GENERAL
+*****************************/
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper{
+    max-width: 940px;  /*el ancho máximo que va a ocupar mi elemento*/
+    margin: 0 auto;/* 0, para arriba y abajo
+                     auto, a la izq y der*/
+    padding: 0 5%;
+}
+
+img{
+  max-width: 100%; /* se adapta al 100% de su objeto contenedor*/
+}
+/*****************************
+HEADING
+*****************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo{
+  text-align: center;
+  margin:0;
+}
+h1{
+  font-family: 'Days One', sans-serif;
+  margin: 15px 0;
+  font-size; 1.75em; /* medida relativa al tamaño por default del elemento*/
+  font-weight: normal;
+  line-height: 0.8em; /* que tan pegadas estarán las lineas del parrafo*/
+}
+
+h2{
+  font-size: 0.75em;
+  margin: -5px 0 0;
+        /*top izq-der abajo*/
+        font-weight: normal;
+}
+/*****************************
+PAGINA: PORTAFOLIO
+*****************************/
+#gallery{
+  margin:0;
+  padding: 0;
+  list-style: none; /* quita los bullets de la lista*/
+}
+
+#gallery li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+/*****************************
+NAVIGATION
+*****************************/
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  
+}
+/*****************************
+FOOTER
+*****************************/
+
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;
+}
+/*****************************
+COLORS
+*****************************/
+/* links */
+a {
+  color: #4db8ff;
+}
+/* encabezado */
+header{
+  background: #80ccff;
+  border-color: #33adff;
+}
+/* texto de logo */
+h1, h2{
+  color: #fff;
+}
+/* navegacion */
+nav{
+  background: #33adff;
+}
+/* link de navegacion */
+nav a, nav a:visited{
+  color: #fff;
+}
+/* links seleccionados */
+nav a.selected, a:hover{
+  color: #008ae6
+}
+/* cuerpo */
+body{
+  background-color: #fff;
+  color: #999;
+}
