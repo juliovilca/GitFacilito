@@ -103,15 +103,17 @@ footer{
 /*****************************
 COLORS
 *****************************/
-/* links */
-a {
-  color: #4db8ff;
-}
 /* encabezado */
 header{
   background: #80ccff;
   border-color: #33adff;
 }
+
+/* links */
+a {
+  color: #4db8ff;
+}
+
 /* texto de logo */
 h1, h2{
   color: #fff;
